@@ -1,23 +1,20 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Harikrishnan Ramadass — Product SME",
+  author: "Harikrishnan Ramadass",
   description:
     "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/hari.png",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/hariramadass/" },
+    { text: "Github", href: "https://github.com/hariscorpio" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,73 +22,85 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Harikrishnan Ramadass",
+    specialty: "Agentforce, Data360 & Marketing Cloud",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "I specialize as a product SME in Agentforce, Data 360 & Marketing Cloud.",
+    email: "hariscorpio@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Salesforce",
+      position: "Senior Success Architect - Marketing Cloud Next",
+      startDate: "Apr 2022",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Collaborating closely with Product teams to influence the Marketing Cloud roadmap for core capabilities, including Email, SMS, WhatsApp, and real-time personalization.",
+        "Leading the integration of Agentforce, Data Cloud, and Marketing Cloud to align technical features with customer-defined business value.",
+        "Directing cross-functional teams to integrate complex systems, achieving a 20% improvement in operational efficiency and a 15% increase in customer ROI.",
+        "Evangelized Salesforce's Data360 + Agentforce + Marketing Cloud platform vision across executive forums and conferences (Connections, World Tour), shaping industry adoption and enabling $10M+ in renewals/upsells.",
+        "Experience prototyping and validating Generative AI product experience cycles using AI tools such as Cursor.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "CVS Health (Aetna), NY",
+      position: "Senior Marketing Cloud Architect - Behavior Change",
+      startDate: "May 2019",
+      endDate: "Apr 2022",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Owned end-to-end lifecycle for an AI-powered real-time personalization platform driving content decisions across Email, SMS, and IVR, reducing campaign latency from 24 hours to 30 minutes and delivering $2M–$5M annual savings.",
+        "Partnered with engineering and data science to design event-driven decisioning pipelines, integrating claims, pharmacy, and engagement telemetry into a unified predictive ML-ready feature layer.",
+        "Partnered with data science teams to build decisioning models and identity resolution pipelines, ensuring personalized content delivery across 30M+ members.",
+        "Mentored product and engineering squads to shift from campaign-execution mindset to platform-led product development, improving delivery velocity by 40%.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "WW (formerly WeightWatchers Inc), NY",
+      position: "Salesforce Marketing Cloud - Product SME",
+      startDate: "Aug 2016",
+      endDate: "May 2019",
+      summary: [
+        "Led the technical product strategy for WellnessWins, a new tiered loyalty program. Integrated CrowdTwist with Salesforce Marketing Cloud to drive member retention across the US & Canada.",
+        "Collaborated on the roadmap for omni-channel messaging capabilities (SMS, push, and email), collaborating with engineering, UX, and marketing to prioritize features that improved onboarding, retention, and customer lifetime value.",
+        "Implemented Movable Ink and OneSpot to automate content personalization, reducing manual creative workload and boosting app ratings from 1.0 to 4.1.",
+        "Prevented the migration from Salesforce Marketing Cloud to Braze by counseling stakeholders on risks of platform migration, identifying architectural optimizations to meet the evolving needs of 25M+ members across North America and Europe.",
+      ],
+    },
+    {
+      company: "TATA Consultancy Services, India / NY-USA",
+      position: "MarTech Consultant / Salesforce Analyst",
+      startDate: "Jan 2009",
+      endDate: "Aug 2016",
+      summary: [
+        "Designed cross-channel customer and order-engagement journeys across email, SMS, and push as part of the Salesforce Centre of Excellence (CoE).",
+        "Managed enterprise-scale Salesforce Sales Cloud + Marketing Cloud implementations for 4,000+ users.",
+        "Authored migration and implementation proposals ($2M+) driving full-scale adoption of Salesforce Marketing Cloud.",
+      ],
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "Email Force",
+      summary: "EmailForce is an intelligent email marketing platform designed to move beyond automation to autonomy. This prototype showcases how AI agents can autonomously design, optimize, and personalize revenue-generating email campaigns.",
+      linkPreview: "https://email-force.vercel.app/dashboard.html",
+      linkSource: "https://github.com/hariscorpio/EmailForce",
+      image: "/emailforce.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
-    },
-    {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "Kite",
+      summary: "This prototype demonstrates the user interface and interactions for Kite, an intelligent middleware layer designed to identify and block non-billable events (AIT, Scripting Arbitrage, and Billing Evasion) for Salesforce Marketing Cloud.",
+      linkPreview: "https://kite-fdass.vercel.app/index.html",
+      linkSource: "https://github.com/hariscorpio/kite",
+      image: "/kite-fdass.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Hi, I’m Harikrishnan Ramadass — a product-focused MarTech leader with 15+ years of experience building data-driven, multi-channel engagement strategies. Currently a Senior Success Architect & Product SMEat Salesforce, I specialize in aligning Data 360, Marketing Cloud, and Agentforce solutions to drive measurable customer outcomes and product adoption.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      I excel at translating complex customer needs into product roadmaps, particularly within the Data 360 and Agentic AI ecosystems. I’ve led high-stakes technical engagements for global enterprise brands and have evangelized Salesforce’s platform vision across executive forums and major conferences like Connections and World Tour — enabling $10M+ in renewals and upsells.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/hari.png",
   },
 };
 
