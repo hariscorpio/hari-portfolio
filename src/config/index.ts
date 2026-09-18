@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Harikrishnan Ramadass — Product SME",
   author: "Harikrishnan Ramadass",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Product manager with 15+ years of experience driving AI-native SaaS solutions across enterprise CRM and customer engagement.",
   lang: "en",
   siteLogo: "/hari.png",
   navLinks: [
@@ -31,15 +31,29 @@ export const SITE_CONTENT: SiteContent = {
   experience: [
     {
       company: "Salesforce",
-      position: "Senior Success Architect - Marketing Cloud Next",
-      startDate: "Apr 2022",
+      position: "Senior Product Manager - MC Next",
+      startDate: "Jul 2026",
       endDate: "Present",
       summary: [
-        "Collaborating closely with Product teams to influence the Marketing Cloud roadmap for core capabilities, including Email, SMS, WhatsApp, and real-time personalization.",
-        "Leading the integration of Agentforce, Data Cloud, and Marketing Cloud to align technical features with customer-defined business value.",
+        "Analyze adoption, usage and health metrics to guide iteration and measure feature impact.",
+        "Partner with Sales, Marketing and CSM to align GTM positioning and enablement with new capabilities.",
+        "Represent voice of the customer, synthesizing feedback from support and direct management.",
+        "Manage cross-functional stakeholders, balancing priorities and communicating trade-offs clearly.",
+        "Prototype with AI tools to enhance marketing workflows and experiment agentic workflows.",
+      ],
+    },
+    {
+      company: "Salesforce",
+      position: "Senior Technical Architect / Product SME - Marketing Cloud on Core",
+      startDate: "Apr 2022",
+      endDate: "Jun 2026",
+      summary: [
+        "Partner with Product & Engineering for low-latency, high-throughput data ingestion, API orchestration, and real-time activation pipelines powering enterprise-scale personalization and conversational experiences.",
+        "Designed cross-cloud data architecture integrating Marketing Cloud, Data Cloud, and external CDPs, improving data unification and activation latency by 35% for Signature enterprise clients.",
+        "Work with Product to closely influence product roadmap for Marketing Cloud on Core capabilities around email, SMS, whatsapp, push notifications, automation events and real-time personalization.",
         "Directing cross-functional teams to integrate complex systems, achieving a 20% improvement in operational efficiency and a 15% increase in customer ROI.",
-        "Evangelized Salesforce's Data360 + Agentforce + Marketing Cloud platform vision across executive forums and conferences (Connections, World Tour), shaping industry adoption and enabling $10M+ in renewals/upsells.",
-        "Experience prototyping and validating Generative AI product experience cycles using AI tools such as Cursor.",
+        "Evangelized Salesforce's Data + AI + Messaging platform vision across executive forums and conferences (Connections, World Tour), shaping industry adoption and enabling $10M+ in renewals/upsells.",
+        "Experience prototyping and validating product experience cycles using AI tools such as Cursor.",
       ],
     },
     {
@@ -96,9 +110,9 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I’m Harikrishnan Ramadass — a product-focused MarTech leader with 15+ years of experience building data-driven, multi-channel engagement strategies. Currently a Senior Success Architect & Product SMEat Salesforce, I specialize in aligning Data 360, Marketing Cloud, and Agentforce solutions to drive measurable customer outcomes and product adoption.
+      Hi, I’m Hari — Product manager with 15+ years of experience driving AI-native SaaS solutions across enterprise CRM and customer engagement. Strong background in cross-functional leadership, UX collaboration, and go-to-market enablement. Experienced in building AI-powered personalization and content delivery frameworks that scale across enterprise environments.
 
-      I excel at translating complex customer needs into product roadmaps, particularly within the Data 360 and Agentic AI ecosystems. I’ve led high-stakes technical engagements for global enterprise brands and have evangelized Salesforce’s platform vision across executive forums and major conferences like Connections and World Tour — enabling $10M+ in renewals and upsells.
+      I’ve led high-stakes technical engagements for global enterprise brands and have evangelized Salesforce’s platform vision across executive forums and major conferences like Connections and World Tour — enabling $10M+ in renewals and upsells.
     `,
     image: "/hari.png",
   },
