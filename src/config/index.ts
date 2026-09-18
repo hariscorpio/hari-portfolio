@@ -23,9 +23,7 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Harikrishnan Ramadass",
-    specialty: "Agentforce, Data360 & Marketing Cloud",
-    summary:
-      "I specialize as a product SME in Agentforce, Data 360 & Marketing Cloud.",
+    specialty: "Product at Marketing Cloud",
     email: "hariscorpio@gmail.com",
   },
   experience: [
